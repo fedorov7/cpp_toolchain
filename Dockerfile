@@ -1,4 +1,4 @@
-FROM fedorov7/odb
+FROM fedorov7/build2
 
 RUN apk add --no-cache git cmake py-pip libc6-compat perl linux-headers \
   && pip install conan
